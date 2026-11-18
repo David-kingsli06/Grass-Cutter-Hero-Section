@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --brand-bg: #14190F;
+  --brand-text: #F4F1EA;
+  --brand-sage: #A9B79A;
+  --brand-sage-muted: rgba(169, 183, 154, 0.35);
+  --brand-sage-faint: rgba(169, 183, 154, 0.15);
+  --emil-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
